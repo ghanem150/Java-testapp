@@ -1,4 +1,4 @@
-# ........DevOpsArea Sample Java App -example...........
+# ........  java-app1 -example...........
 
 Build war with maven and DevOpsArea framework
 
@@ -20,11 +20,11 @@ Steps are the following:
      * Will move the file devopsarea-01.war from maven container to /webapp in tomcat contaner<br />
      * Do health check to make sure that the artifact is deployed
 
-3. Run 'docker build -t devopsarea .' <br />
+3. Run 'docker build -t java-app1 .' <br />
     
      * Will create a Docker image called devopsarea <br />
 
-4. Run 'docker run -d -p 8080:8080 --name devopsarea-sample-java-app devopsarea' <br />
-     * Will create a container called devopsarea-sample-java-app and will forward the container internal port 8080 to locathost 8080 in the hosted machine 
+4. Run ' docker run -d -p 2222:8080 java-app1 ' <br />
+     * Will create a container called java-app1 and will forward the container internal port 8080 to locathost 2222 in the hosted machine 
 
-5. Open [http://localhost:8080/devopsarea-1.0/](http://localhost:8080/devopsarea-1.0/) in your browser and see the result.
+5. Open [http://192.168.1.50:2222/devopsarea-1.0/](http://192.168.1.50:2222/devopsarea-1.0/) in your browser and see the result.
