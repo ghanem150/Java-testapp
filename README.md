@@ -27,4 +27,4 @@ Steps are the following:
 4. Run ' docker run -d -p 2222:8080 java-app1 ' <br />
      * Will create a container called java-app1 and will forward the container internal port 8080 to locathost 2222 in the hosted machine 
 
-5. Open [http://192.168.1.50:2222/devopsarea-1.0/](http://192.168.1.50:2222/devopsarea-1.0/) in your browser and see the result.
+5. Open [http://192.168.1.50:2222/java-app1-1.0/](http://192.168.1.50:2222/java-app1-1.0/) in your browser and see the result.
