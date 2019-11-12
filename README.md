@@ -1,6 +1,6 @@
 # ........ java-app1-example  ...........
 
-Build war with maven and java-app1 framework
+Build war with maven and java-app1 framework.
 
 Steps are the following:
 
