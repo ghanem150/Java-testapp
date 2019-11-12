@@ -1,6 +1,6 @@
 # ........  java-app1 -example...........
 
-Build war with maven and DevOpsArea framework
+Build war with maven and java-app1 framework
 
 Steps are the following:
 
@@ -17,7 +17,7 @@ Steps are the following:
         
         B. Create tomcat container<br />
         
-     * Will move the file devopsarea-01.war from maven container to /webapp in tomcat contaner<br />
+     * Will move the file java-app1-01.war from maven container to /webapp in tomcat contaner<br />
      * Do health check to make sure that the artifact is deployed
 
 3. Run 'docker build -t java-app1 .' <br />
